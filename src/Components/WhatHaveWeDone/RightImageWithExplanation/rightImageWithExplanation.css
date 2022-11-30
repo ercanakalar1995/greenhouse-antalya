@@ -1,0 +1,114 @@
+.composition {
+  position: relative;
+  left: 16%;
+  margin-top: 20%;
+}
+.composition__photo {
+  width: 55%;
+  box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.4);
+  border-radius: 2px;
+  position: absolute;
+  z-index: 10;
+  transition: all 0.2s;
+  outline-offset: 1rem;
+}
+
+.composition__photo--p1 {
+  position: relative;
+  left: 0;
+  top: -2rem;
+}
+.composition__photo--p2 {
+  position: relative;
+  left: 35%;
+  top: -24rem;
+}
+.composition__photo--p3 {
+  left: 20%;
+  top: 10rem;
+}
+
+.composition__photo--p3:hover {
+  left: 0;
+}
+.composition__photo:hover {
+  outline: 1.5rem solid #55c57a;
+  transform: scale(2.6) translateY(-0.5rem);
+  box-shadow: 0 2.5rem 4rem rgba(0, 0, 0, 0.5);
+  z-index: 20;
+}
+@media only screen and (max-width: 1400px) {
+  .composition {
+    position: relative;
+    left: 0;
+    margin-top: 39%;
+    width: 90%;
+  }
+}
+
+@media only screen and (max-width: 1080px) {
+  .composition {
+    position: relative;
+    left: 23%;
+    margin-top: 28%;
+    width: 90%;
+  }
+  .composition__photo {
+    position: relative;
+    display: flex;
+    width: 33.33333333%;
+  }
+  .composition__photo--p1 {
+    top: 0;
+    transform: scale(1.2);
+  }
+  .composition__photo--p2 {
+    top: 0;
+    left: 0;
+    margin-top: 15%;
+    transform: scale(1.2);
+  }
+  .composition__photo--p3 {
+    top: 0;
+    margin-top: 15%;
+    left: 0;
+    transform: scale(1.2);
+  }
+}
+@media only screen and (max-width: 900px) {
+  .right_side {
+    position: relative;
+    left: -20px;
+  }
+  .composition {
+    position: relative;
+    margin-top: 5%;
+  }
+  .composition__photo {
+    position: relative;
+    display: flex;
+    width: 33.33333333%;
+  }
+  .composition__photo--p1 {
+    top: 0;
+    transform: scale(1.2);
+  }
+  .composition__photo--p2 {
+    top: 0;
+    left: 0;
+    transform: scale(1.2);
+  }
+  .composition__photo--p3 {
+    left: -60%;
+    top: 5rem;
+    transform: scale(1.2);
+  }
+  .composition__photo--p3:hover {
+    left: -60%;
+    top: 5rem;
+    transform: scale(3);
+  }
+}
+.composition:hover .composition__photo:not(:hover) {
+  transform: scale(0.95);
+}
