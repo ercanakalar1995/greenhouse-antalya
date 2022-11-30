@@ -6,11 +6,12 @@ const xss = require('xss-clean');
 const cors = require('cors');
 const path = require('path');
 const mongoose = require('mongoose');
+const dotenv = require('dotenv');
 
 const formRouter = require('./routes/formRouter.js');
 const app = express();
 
-require('dotenv').config({ path: '.env' });
+dotenv.config({ path: './config.env' });
 
 const DB = process.env.DATABASE;
 mongoose.connect(DB, {
