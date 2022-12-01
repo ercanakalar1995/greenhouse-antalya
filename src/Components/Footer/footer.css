@@ -72,6 +72,7 @@
     position: relative;
     list-style: none;
     left: 3%;
+    max-width: max-content;
   }
 }
 @media only screen and (min-width: 65.5em) {
