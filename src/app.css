@@ -23,11 +23,10 @@ html {
     font-size: 75%;
   }
 }
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 400px) {
   html {
     font-size: 48%;
     min-width: max-content;
-    max-width: 100%;
   }
 }
 body {

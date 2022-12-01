@@ -145,7 +145,7 @@
 }
 .card__details ul {
   list-style: none;
-  width: 80%;
+  width: 100%;
   margin: 0 auto;
 }
 .card__details ul li {

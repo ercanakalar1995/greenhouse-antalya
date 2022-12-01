@@ -2,7 +2,7 @@ exports.productsInformations = 'Products Informations';
 exports.products = [
   {
     productName: 'vegetables',
-    description: ['Marul', 'patates', 'soğan'],
+    description: ['Marul', 'Patates', 'Soğan'],
     explanation: 'Bu elma antalyada yetişti ve organiktir. Sulu ve ekşidir.',
     src: [
       '../../img/sebzeler/domates.jpg',
@@ -63,7 +63,7 @@ exports.products = [
   },
   {
     productName: 'fruits',
-    description: ['elma', 'armut', 'çilek'],
+    description: ['Elma', 'Armut', 'Çilek'],
     explanation: 'Bu kiraz antalyada yetişti ve organiktir. Sulu ve ekşidir.',
     src: [
       '../../img/meyveler/armut.jpg',
@@ -104,17 +104,13 @@ exports.products = [
   },
   {
     productName: 'greenhouses',
-    description: [
-      'Greenhouses',
-      'Seedling Plants',
-      'Hydroponic Greenhouses',
-    ],
+    description: ['Greenhouses', 'Seedling Plants', 'Hydroponic Greenhouses'],
     explanation: 'Bu kiraz antalyada yetişti ve organiktir. Sulu ve ekşidir.',
     src: [
       '../../img/1-fideTesisi1.jpg',
       '../../img/2-topraksızTarım1.jpg',
       '../../img/3-hidroponikSera1.jpg',
     ],
-    names: ['Greenhouses','Seedling Plants', 'Hydroponic Greenhouses'],
+    names: ['Greenhouses', 'Seedling Plants', 'Hydroponic Greenhouses'],
   },
 ];
