@@ -3,7 +3,7 @@ import './currentProductImage.css';
 const CurrentProductImage = (props) => {
   const { imageSrc, productName } = props;
   return (
-    <div className="card-row">
+    <div className="product-row">
       {imageSrc.map((src, index) => (
         <div className="col-1-of-4" key={index}>
           <div className="circle">

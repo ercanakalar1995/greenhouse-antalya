@@ -51,7 +51,10 @@ const Footer = () => {
                     </a>
                   </li>
                   <li className="footer__item">
-                    <a href={`tel:+905466870726`} className="footer__link">
+                    <a
+                      className="footer__link"
+                      href="https://wa.me/+905466870726?text=I%27d%20like%20to%20chat%20with%20you"
+                    >
                       WP
                     </a>
                   </li>
