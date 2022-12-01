@@ -19,7 +19,7 @@ const Footer = () => {
                     loading="lazy"
                     frameBorder="0"
                     style={{ border: '0' }}
-                    referrerpolicy="no-referrer-when-downgrade"
+                    referrerPolicy="no-referrer-when-downgrade"
                     title="myFrame"
                   ></iframe>
                 </div>
