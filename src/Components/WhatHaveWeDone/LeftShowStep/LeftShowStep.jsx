@@ -3,7 +3,7 @@ import ImageAndTitle from './ImageAndTitle';
 
 const LeftShowStep = () => {
   const fideTesisleri = {
-    title: '1-FIDE TESISLERI',
+    title: '1-Greenhouses',
     images: [
       '../../img/1-fideTesisi1.jpg',
       '../../img/1-fideTesisi2.jpg',
@@ -11,7 +11,7 @@ const LeftShowStep = () => {
     ],
   };
   const topraksızSera = {
-    title: '2-Topraksız Tarım seraları',
+    title: '2-Seedling Plants',
     images: [
       '../../img/2-topraksızTarım1.jpg',
       '../../img/2-topraksızTarım2.jpg',
@@ -19,7 +19,7 @@ const LeftShowStep = () => {
     ],
   };
   const hidroponikSera = {
-    title: '3-Hidroponik Tarım Seraları',
+    title: '3-Hydroponic Greenhouses',
     images: [
       '../../img/3-hidroponikSera1.jpg',
       '../../img/3-hidroponikSera2.jpg',
@@ -27,7 +27,7 @@ const LeftShowStep = () => {
     ],
   };
   const products = {
-    title: '4-Ürünler',
+    title: '4-Products',
     images: [
       '../../img/4-ürünler1.jpg',
       '../../img/4-ürünler2.jpg',

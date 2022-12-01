@@ -25,11 +25,11 @@ const Footer = () => {
                 </div>
               </div>
               <div className="contact">
-                <h3 className="contact_us">İletişim</h3>
+                <h3 className="contact_us">Contact</h3>
                 <ul className="footer__list">
                   <li className="footer__item">
                     <a href={`tel:+905343751745`} className="footer__link">
-                      Tel No: +905343751745
+                      Phone No: +905343751745
                     </a>
                   </li>
                   <li className="footer__item">

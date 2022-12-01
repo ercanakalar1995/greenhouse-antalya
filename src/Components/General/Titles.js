@@ -1,4 +1,4 @@
-exports.fideTesisleri = '1-FIDE TESISLERI';
-exports.topraksizSeralar = '2-TOPRAKSIZ TARIM SERALARI';
-exports.hidroponikSeralar = '3-HIDROPONIK TARIM SERALARI';
-exports.productions = '4-IHRACAT ÜRÜNLERI';
+exports.fideTesisleri = '1-Greenhouses';
+exports.topraksizSeralar = '2-Seedling Plants';
+exports.hidroponikSeralar = '3-Hydroponic Greenhouses';
+exports.productions = '4-Products';
