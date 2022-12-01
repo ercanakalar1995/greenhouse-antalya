@@ -45,6 +45,11 @@
     left: 10%;
   }
 }
+@media only screen and (max-width: 400px) {
+  .contact {
+    left: 0;
+  }
+}
 @media only screen and (max-width: 920px) {
   .footer__navigation {
     width: fit-content;
@@ -66,7 +71,7 @@
   .footer__list {
     position: relative;
     list-style: none;
-    left: 16%;
+    left: 3%;
   }
 }
 @media only screen and (min-width: 65.5em) {
@@ -154,20 +159,13 @@
   width: calc((100% - 6rem) / 2);
 }
 .contact_us {
-  left: 10%;
+  left: 0;
   position: relative;
   display: flex;
 }
-.map-container-2 {
+.map-container {
   overflow: hidden;
   padding-bottom: 56.25%;
   position: relative;
   height: 0;
-}
-.map-container-2 iframe {
-  left: 0;
-  top: 0;
-  height: 100%;
-  width: 100%;
-  position: absolute;
 }

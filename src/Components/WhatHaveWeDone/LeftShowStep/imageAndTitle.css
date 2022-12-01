@@ -102,6 +102,7 @@
 }
 .tesis {
   position: relative;
+  margin: 6rem 0 6rem 0rem;
 }
 .tesis__fide {
   margin-bottom: 3%;
@@ -143,14 +144,27 @@
 .tesis__fide__seraImages__photo--p2 {
   margin-right: 10px;
 }
-.tesis__fide__seraImages__photo--p3 {
-  margin-right: 10px;
-}
+
 .tesis__fide__seraImages__photo--p4 {
   margin-right: 10px;
 }
 .tesis__fide__seraImages__photo--p5 {
   margin-right: 10px;
+}
+@media only screen and (max-width: 370px) {
+  .tesis__fide__seraImages__photo--p1 {
+    margin-right: 20px;
+  }
+  .tesis__fide__seraImages__photo--p2 {
+    margin-right: 20px;
+  }
+
+  .tesis__fide__seraImages__photo--p4 {
+    margin-right: 20px;
+  }
+  .tesis__fide__seraImages__photo--p5 {
+    margin-right: 20px;
+  }
 }
 .tesis__fide__seraImages__photo--p1:hover {
   margin-left: 40px;
