@@ -6,6 +6,7 @@ import { products } from '../../../src/Components/General/CardTitles';
 
 import { useLocation } from 'react-router-dom';
 import capitalizeFirstLetter from '../../Components/Hook/replaceName';
+import ContactWp from '../../Components/Contact/ContactWp';
 
 const Product = () => {
   const location = useLocation();
@@ -19,6 +20,7 @@ const Product = () => {
 
   return (
     <>
+      <ContactWp />
       <Header headTitle={headTitle} />
       <ProductInformation findProduct={findProduct} />
       <Footer />

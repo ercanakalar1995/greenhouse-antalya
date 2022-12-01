@@ -1,3 +1,4 @@
+import ContactWp from '../../Components/Contact/ContactWp';
 import Contact from '../../Components/Contact/Contact';
 import Featured from '../../Components/Featured/Featured';
 import Footer from '../../Components/Footer/Footer';
@@ -12,6 +13,7 @@ import {
 const Home = () => {
   return (
     <>
+      <ContactWp />
       <Header />
       <Featured />
       <ProductionCards
