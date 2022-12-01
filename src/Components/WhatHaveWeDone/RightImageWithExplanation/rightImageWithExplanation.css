@@ -49,14 +49,13 @@
 @media only screen and (max-width: 1080px) {
   .composition {
     position: relative;
-    left: 23%;
-    margin-top: 28%;
-    width: 90%;
+    margin-top: 17%;
+    width: 100%;
+    padding-left: 34%;
   }
   .composition__photo {
     position: relative;
     display: flex;
-    width: 33.33333333%;
   }
   .composition__photo--p1 {
     top: 0;
@@ -79,6 +78,7 @@
   .right_side {
     position: relative;
     left: -20px;
+    top: 15rem;
   }
   .composition {
     position: relative;
@@ -90,23 +90,24 @@
     width: 33.33333333%;
   }
   .composition__photo--p1 {
-    top: 0;
     transform: scale(1.2);
+    width: 60%;
+    left: -10rem;
   }
   .composition__photo--p2 {
-    top: 0;
-    left: 0;
     transform: scale(1.2);
+    width: 60%;
+    top: -20rem;
+    left: 10rem;
   }
   .composition__photo--p3 {
-    left: -60%;
-    top: 5rem;
     transform: scale(1.2);
+    width: 60%;
+    top: -40rem;
+    left: -5rem;
   }
   .composition__photo--p3:hover {
-    left: -60%;
-    top: 5rem;
-    transform: scale(3);
+    transform: scale(2.5);
   }
 }
 .composition:hover .composition__photo:not(:hover) {

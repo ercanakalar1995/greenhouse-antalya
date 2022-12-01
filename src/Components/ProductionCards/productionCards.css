@@ -6,14 +6,13 @@
 }
 @media only screen and (max-width: 56.25em) {
   .section-tours {
-    padding: 20rem 0 10rem 0;
+    /* padding: 20rem 0 10rem 0; */
   }
 }
 
 .card-row {
   position: relative;
   max-width: 165rem;
-  left: 2%;
   margin: 0 auto;
   z-index: 2;
 }
@@ -28,7 +27,7 @@
 @media only screen and (max-width: 56.25em) {
   .card-row {
     max-width: 50rem;
-    padding: 0 3rem;
+    /* padding: 0 3rem; */
   }
 }
 .card-row::after {
