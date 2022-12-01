@@ -86,6 +86,14 @@
   .product-row {
     max-width: 29rem;
   }
+  .product-name {
+    width: 10rem;
+    height: 10rem;
+  }
+  .product-name-position {
+    font-size: 1rem;
+    font-weight: 700;
+  }
 }
 
 .product-row:not(:last-child) {
