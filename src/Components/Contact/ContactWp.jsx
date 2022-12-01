@@ -7,7 +7,7 @@ const ContactWp = () => {
     <>
       <div className="container__wp">
         <div className="wp-box">
-          <a href="tel:+905466870726" class="wp-number">
+          <a href="tel:+905466870726" className="wp-number">
             <FontAwesomeIcon
               icon={faWhatsapp}
               style={{ height: '5rem', color: 'green' }}
@@ -20,12 +20,3 @@ const ContactWp = () => {
 };
 
 export default ContactWp;
-// return (
-//     <div className="container__wp">
-//       <div className="wp-box">
-//         <a href="tel:+905466870726" class="wp-number">
-//           <FontAwesomeIcon icon="fa-brands fa-whatsapp" />
-//         </a>
-//       </div>
-//     </div>
-//   );
