@@ -7,7 +7,7 @@ const ContactWp = () => {
     <>
       <div className="container__wp">
         <div className="wp-box">
-          <a href="https://wa.me/+905466870726?text=I%27d%20like%20to%20take%20mare%20information">
+          <a href="https://wa.me/+905466870726?text=I%27d%20like%20to%20take%20more%20information">
             <FontAwesomeIcon
               icon={faWhatsapp}
               style={{ height: '5rem', color: 'green' }}

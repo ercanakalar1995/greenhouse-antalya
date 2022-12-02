@@ -49,7 +49,7 @@ const Footer = () => {
                   <li className="footer__item">
                     <a
                       className="footer__link"
-                      href="https://wa.me/+905466870726?text=I%27d%20like%20to%20take%20mare%20information"
+                      href="https://wa.me/+905466870726?text=I%27d%20like%20to%20take%20more%20information"
                     >
                       WP
                     </a>
