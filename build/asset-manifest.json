@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.de500a31.css",
-    "main.js": "/static/js/main.d0aaba0c.js",
+    "main.css": "/static/css/main.d9b016ba.css",
+    "main.js": "/static/js/main.2f71beb5.js",
     "static/media/1-fideTesisi1.jpg": "/static/media/1-fideTesisi1.70e441d4f126432d8284.jpg",
     "static/media/kart_visit.jpg": "/static/media/kart_visit.5c5c0d10760ae69a682a.jpg",
     "static/media/3-hidroponikSera2.jpg": "/static/media/3-hidroponikSera2.ee2769924f08f3080a56.jpg",
     "static/media/4-ürünler2.jpg": "/static/media/4-ürünler2.e6520ab50f859a511ab6.jpg",
     "static/media/4-ürünler1.jpg": "/static/media/4-ürünler1.bddd7d789b38bbd00441.jpg",
     "index.html": "/index.html",
-    "main.de500a31.css.map": "/static/css/main.de500a31.css.map",
-    "main.d0aaba0c.js.map": "/static/js/main.d0aaba0c.js.map"
+    "main.d9b016ba.css.map": "/static/css/main.d9b016ba.css.map",
+    "main.2f71beb5.js.map": "/static/js/main.2f71beb5.js.map"
   },
   "entrypoints": [
-    "static/css/main.de500a31.css",
-    "static/js/main.d0aaba0c.js"
+    "static/css/main.d9b016ba.css",
+    "static/js/main.2f71beb5.js"
   ]
 }
